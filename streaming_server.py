@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(0)
 # create socket and bind to host and port
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host_name = socket.gethostname()
-host_ip = socket.gethostbyname(host_name)
+host_ip = '192.168.1.149'
 port = 5000
 socket_address = (host_ip, port)
 server_socket.bind(socket_address)

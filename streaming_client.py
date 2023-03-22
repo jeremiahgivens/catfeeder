@@ -6,7 +6,7 @@ import pickle
 
 # create socket and connect to host and port
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host_ip = '192.168.1.5'  # replace with server IP address
+host_ip = '192.168.1.149'  # replace with server IP address
 port = 5000
 client_socket.connect((host_ip, port))
 print('Connected to:', (host_ip, port))
