@@ -27,7 +27,7 @@ def mark_frame(frame, det):
     return frame
 
 model = torch.hub.load("/home/jere/git/golf_tracer_web_app/app/yolov5", 'custom',
-                       "/home/jere/git/golf_tracer_web_app/app/mlmodels/best.pt", source='local')
+                       "/home/jere/git/yolov5/runs/train/exp4/weights/best.pt", source='local')
 
 # define a video capture object
 vid = cv2.VideoCapture(0)
